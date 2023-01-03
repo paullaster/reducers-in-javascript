@@ -31,20 +31,18 @@ const toDoReducer = (state, action) => {
             return item;
         }
       });
-      //return state;
       break;
     case "NOT_DONE":
-      state.map(item => {
+      return state.map(item => {
         if (
             item.id === action.payload.id
         ){
-            return item = {
+            return {
                 ...item,
                 status: false
             };
         };
       });
-      return state;
       break;
     default:
         return  new Error;
