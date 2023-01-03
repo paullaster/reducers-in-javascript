@@ -14,6 +14,6 @@ const colorState = (color, action) =>{
 
 const color = 'green';
 const tinkerColor = {
-    type: 'normal',
+    type: 'success',
 }
 console.log (colorState (color, tinkerColor))
