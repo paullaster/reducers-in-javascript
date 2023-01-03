@@ -74,4 +74,4 @@ const todoUpdater = {
     }
 }
 
-toDoReducer (todo, todoUpdater);
+console.log (toDoReducer (todo, todoUpdater));
