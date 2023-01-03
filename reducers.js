@@ -1,5 +1,15 @@
 const colorState = (color, action) =>{
-    switch (action.type) {}
+    switch (action.type) {
+        case 'danger':
+            return 'red';
+            break;
+        case 'success':
+            return 'green';
+            break;
+        default:
+            return 'blue';
+            break;
+    }
 };
 
 const color = 'green';
