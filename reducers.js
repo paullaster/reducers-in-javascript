@@ -18,4 +18,10 @@ const tinkerColor = {
 }
 //console.log (colorState (color, tinkerColor))
 
-const toDoReducer =  (state, acton) => {};
+const toDoReducer =  (state, acton) => {
+
+};
+
+const todo = [
+    {}
+]
