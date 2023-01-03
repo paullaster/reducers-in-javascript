@@ -23,5 +23,13 @@ const toDoReducer =  (state, acton) => {
 };
 
 const todo = [
-    {}
+    {
+        activity: 'Read react',
+        status: false,
+        id: 1,
+    },
+    {
+        activity: 'Practise react code',
+
+    }
 ]
