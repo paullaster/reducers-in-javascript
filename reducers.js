@@ -21,7 +21,7 @@ const tinkerColor = {
 const toDoReducer = (state, action) => {
   switch (action.type) {
     case "DONE":
-      state.map(item => {
+      return state.map(item => {
         if (item.id === action.payload.id) {
           return {
             ...item,
