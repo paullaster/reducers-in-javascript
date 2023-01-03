@@ -28,7 +28,6 @@ const toDoReducer = (state, action) => {
                 status: true,
             }
         };
-
       });
   }
 };
