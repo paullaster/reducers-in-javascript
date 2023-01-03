@@ -38,4 +38,4 @@ const todo = [
         status: false,
         id: 3,
     }
-]
+];
