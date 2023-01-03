@@ -30,6 +30,7 @@ const toDoReducer = (state, action) => {
         };
       });
       return state;
+      break;
   }
 };
 
