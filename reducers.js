@@ -66,3 +66,8 @@ const todo = [
     id: 3
   }
 ];
+
+const todoUpdater = {
+    type: 'DONE',
+    payload
+}
