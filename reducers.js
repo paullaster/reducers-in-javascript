@@ -23,10 +23,7 @@ const toDoReducer = (state, action) => {
     case "DONE":
       state.map(item => {
         if (item.id === action.payload.id) {
-          return item = {
-            ...item,
-            status: true
-          };
+          return "ID FOUND";
         }
       });
       return state;
