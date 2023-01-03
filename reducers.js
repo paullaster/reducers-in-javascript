@@ -74,4 +74,4 @@ const todoUpdater = {
     }
 }
 
-toDoReducer ()
+toDoReducer (tod, )
