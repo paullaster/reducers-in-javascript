@@ -18,8 +18,11 @@ const tinkerColor = {
 }
 //console.log (colorState (color, tinkerColor))
 
-const toDoReducer =  (state, acton) => {
-
+const toDoReducer =  (state, action) => {
+    switch(action.type){
+        case 'DONE':
+           state.map ( () => {})
+    }
 };
 
 const todo = [
