@@ -22,7 +22,8 @@ const toDoReducer =  (state, action) => {
     switch(action.type){
         case 'DONE':
            state.map ( (item) => {
-                
+                const filteredItem =
+                item.id === action.payload.id
            })
     }
 };
