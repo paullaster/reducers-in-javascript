@@ -33,7 +33,9 @@ const toDoReducer = (state, action) => {
       break;
     case "NOT_DONE":
       state.map(item => {
-        if ()
+        if (
+            item.id === action.payload.id
+        )
       });
   }
 };
