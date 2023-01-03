@@ -40,7 +40,7 @@ const toDoReducer = (state, action) => {
                 ...item,
                 status: false
             };
-        }
+        };
       });
   }
 };
