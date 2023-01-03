@@ -70,7 +70,7 @@ const todo = [
 ];
 
 const todoUpdater = {
-    type: 'DONE',
+    type: 'UNKNOWN',
     payload: {
         id: 3,
     }
