@@ -32,6 +32,7 @@ const toDoReducer = (state, action) => {
       return state;
       break;
     case 'NOT_DONE':
+        state.map(item => {});
   }
 };
 
