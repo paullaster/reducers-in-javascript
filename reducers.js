@@ -72,7 +72,7 @@ const todo = [
 const todoUpdater = {
     type: 'DONE',
     payload: {
-        id: 1,
+        id: 3,
     }
 }
 
