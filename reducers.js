@@ -35,5 +35,7 @@ const todo = [
     },
     {
         activity: 'Read JavaScript reducer',
+        status: false,
+        id: 3,
     }
 ]
