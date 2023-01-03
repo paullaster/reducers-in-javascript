@@ -24,7 +24,7 @@ const toDoReducer = (state, action) => {
       state.map(item => {
         if (item.id === action.payload.id) {
           return {
-            ...state,
+            ...item,
             status: true,
           };
         }
