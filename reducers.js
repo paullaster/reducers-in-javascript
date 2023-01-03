@@ -36,7 +36,9 @@ const toDoReducer = (state, action) => {
         if (
             item.id === action.payload.id
         ){
-            
+            item = {
+                
+            }
         }
       });
   }
