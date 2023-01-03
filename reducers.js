@@ -16,4 +16,6 @@ const color = 'green';
 const tinkerColor = {
     type: 'success',
 }
-console.log (colorState (color, tinkerColor))
+//console.log (colorState (color, tinkerColor))
+
+const toDoReducer =  (state, acton) => {};
