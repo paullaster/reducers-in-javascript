@@ -37,8 +37,8 @@ const toDoReducer = (state, action) => {
             item.id === action.payload.id
         ){
             item = {
-                
-            }
+
+            };
         }
       });
   }
