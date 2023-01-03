@@ -27,6 +27,8 @@ const toDoReducer = (state, action) => {
             ...item,
             status: true,
           };
+        }else{
+            
         }
       });
       //return state;
