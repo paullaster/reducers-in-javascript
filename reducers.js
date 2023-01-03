@@ -44,6 +44,8 @@ const toDoReducer = (state, action) => {
       });
       return state;
       break;
+    default:
+        return  new Error;
   }
 };
 
