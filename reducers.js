@@ -1,8 +1,5 @@
 const colorState = (color, action) =>{
-    if (action.type === 'danger') {
-        return 'red';
-    }
-    return color;
+    switch (action.type) {}
 };
 
 const color = 'green';
