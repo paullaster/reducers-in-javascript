@@ -30,6 +30,10 @@ const todo = [
     },
     {
         activity: 'Practise react code',
-
+        status: false,
+        id: 2,
+    },
+    {
+        
     }
 ]
